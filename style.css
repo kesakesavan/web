@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    outline: none;
 }
 
 /* navbar */
@@ -712,9 +713,101 @@ textarea:focus{
     }
 }
 
-/* @media (max-width:450px){
+@media (max-width:450px){
 
     #about .box-container .box{
         width: 100%;
     }
-} */
+
+    #service .box-container .box{
+        width: 100%;
+    }
+     .carousel{
+        width: 80%;
+        height: 80vh;
+        box-shadow: 10px 20px 10px rgba(0,0,0,.7);
+        background: #1B1212;
+        color: #faf8f8;
+        margin-bottom: 5%;
+        margin-left: 10%;
+        
+    } 
+    #projects .box-container .box{
+        width: 100%;
+        display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 30px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30%;
+    }
+    .card{
+        margin-top: 10%;
+        background: #343434 !important;
+        color: #faf8f8;
+        margin-left: 2%;
+        margin-right: 2%;
+        
+    
+    }
+    .card2{
+        margin-top: 10%;
+        background: #343434 !important;
+        color: #faf8f8;
+        margin-left: 2%;
+        margin-right: 2%;
+        font-size: 11px;
+    }
+    .card3{
+        margin-top: 10%;
+        background: #343434 !important;
+        color: #faf8f8;
+        margin-left: 2%;
+        margin-right: 2%;
+        font-size: 11px;
+    }
+    .card4{
+        margin-top: 10%;
+        background: #343434 !important;
+        color: #faf8f8;
+        margin-left: 2%;
+        margin-right: 2%;
+        font-size: 13px;
+        width: 105%;
+    }
+    .card5{
+        margin-top: 10%;
+        background: #343434 !important;
+        color: #faf8f8;
+        margin-left: 2%;
+        margin-right: 2%;
+        font-size: 11px;
+        width: 105%;
+    }
+    .card6{
+        margin-top: 10%;
+        background: #343434 !important;
+        color: #faf8f8;
+        margin-left: 2%;
+        margin-right: 2%;
+        font-size: 12px;
+        width: 105%;
+    }
+    .card7{
+        margin-top: 10%;
+        background: #343434 !important;
+        color: #faf8f8;
+        margin-left: 2%;
+        margin-right: 2%;
+        font-size: 11px;
+        
+    }
+
+    #contact .box-container .box{
+        width: 100%;    
+       
+    }
+    .contact-wrapper{
+        grid-template-columns: 1fr;
+    }
+} 
